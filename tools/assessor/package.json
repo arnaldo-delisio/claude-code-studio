@@ -1,0 +1,34 @@
+{
+  "name": "@claude-code-studio/assessor",
+  "version": "1.0.0",
+  "description": "Universal Meta-Assessor for Codebases - Comprehensive analysis tool for any repository",
+  "main": "index.mjs",
+  "type": "module",
+  "bin": {
+    "assess": "./index.mjs"
+  },
+  "scripts": {
+    "assess": "node index.mjs",
+    "assess:deep": "node index.mjs --deep",
+    "assess:publish": "node index.mjs --publish",
+    "assess:json": "node index.mjs --format=json"
+  },
+  "keywords": [
+    "codebase-analysis",
+    "meta-assessment",
+    "architecture-decisions",
+    "technical-debt",
+    "code-quality",
+    "security-audit",
+    "performance-analysis",
+    "rules-of-engagement",
+    "claude-code-studio"
+  ],
+  "author": "Claude Code Studio",
+  "license": "MIT",
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}
