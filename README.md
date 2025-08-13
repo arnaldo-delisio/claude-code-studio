@@ -290,7 +290,146 @@ twitter-engager      → Ride trends to engagement
 - **Single Domain**: Direct agent usage
 - **Multi-Domain**: `studio-coach` orchestrates multiple agents
 - **Complex Projects**: Parallel agent teams with clear handoffs
+## 🔍 Universal Meta-Assessor
 
+The Universal Meta-Assessor provides instant **codebase intelligence** for any repository, generating immutable **Architecture Decision Records (ADRs)** and **Rules of Engagement (RoE)** that evolve with your project.
+
+### ⚡ Instant Repo Analysis
+
+**Zero setup, maximum insight**. Drop into any codebase and get comprehensive analysis in seconds:
+
+```bash
+/assess                    # Full codebase assessment
+/assess-path src/api       # Targeted path analysis  
+/assess-publish           # Generate immutable RoE files
+```
+
+### 🎯 What Gets Analyzed
+
+#### **Multi-Language Support**
+- **Frontend**: JavaScript/TypeScript (React, Vue, Angular, Svelte)
+- **Backend**: Node.js, Python (Django, Flask), PHP (Laravel, Symfony)  
+- **Mobile**: React Native, Swift, Kotlin, Flutter, Dart
+- **Systems**: Go, Rust, Java (Spring Boot), C# (.NET)
+- **Infrastructure**: Docker, Kubernetes, Terraform, Serverless
+
+#### **Architecture Patterns**
+- **MVC/MVVM** detection and compliance analysis
+- **Microservices** architecture assessment  
+- **API-first** design validation
+- **Serverless** function optimization
+- **Monorepo** structure analysis
+- **Event-driven** pattern identification
+
+#### **Security & Performance**
+- **OWASP compliance** gap analysis
+- **Vulnerability scanning** for common patterns
+- **Bundle size** optimization opportunities
+- **Performance bottleneck** identification
+- **Dependency audit** with license compliance
+
+### 📋 Generated Artifacts
+
+The assessor creates **immutable, version-controlled** project documentation:
+
+#### **`ARCHITECTURE-DECISIONS.md`** (ADR Format)
+```markdown
+## ADR-001: Primary Language: TypeScript
+**Status:** accepted
+**Context:** Codebase is primarily TypeScript with 15,847 lines
+**Decision:** Continue development in TypeScript
+**Consequences:** Team expertise and tooling optimized for TypeScript
+```
+
+#### **`RULES-OF-ENGAGEMENT.md`** (Team Guidelines)  
+```markdown
+## Development Standards
+- **Primary Language:** TypeScript
+- **Frameworks:** React, Express.js
+- **Architecture:** SPA, API-first
+- **Testing:** Jest, Cypress required for all new features
+```
+
+#### **`TECHNICAL-DEBT.md`** (Prioritized Inventory)
+```markdown
+## High Priority
+- `src/utils.js:45` - TODO: Refactor legacy authentication
+- `api/routes/user.js:123` - FIXME: SQL injection vulnerability
+```
+
+### 🚀 Real-World Usage
+
+#### **New Team Member Onboarding**
+```bash
+# Generate complete project documentation
+/assess-publish --template=standard --commit
+# New developers get instant project context
+```
+
+#### **Architecture Review Process**  
+```bash
+# Monthly architecture health check
+/assess --deep --format=json > architecture-review.json
+# Track architectural drift over time
+```
+
+#### **Pre-Release Security Audit**
+```bash
+# Comprehensive security and debt assessment  
+/assess-publish --template=comprehensive
+# Generate audit trail for compliance
+```
+
+### 🔧 Slash Commands Integration
+
+The assessor integrates seamlessly into Claude Code Studio workflows:
+
+| Command | Purpose | Output |
+|---------|---------|--------|
+| `/assess` | Full codebase analysis | Comprehensive markdown report |
+| `/assess-path src/api` | Targeted analysis | Focused insights for specific paths |
+| `/assess-publish` | Generate RoE artifacts | Immutable ADR/RoE/debt files |
+
+**Example Agent Workflow:**
+```
+You: "/assess this React app and optimize performance"
+
+Claude: Using meta-assessor agent to analyze codebase...
+- Detected React 18 with TypeScript
+- Found 12 large bundle files (>1MB each)  
+- Identified unused dependencies: moment.js, lodash
+- Generated performance optimization plan
+- Created ADR-004 for bundle optimization strategy
+
+Delegating to performance-optimizer agent for implementation...
+```
+
+### 💡 Key Benefits
+
+#### **🎯 Instant Context**
+- **Zero Learning Curve**: Works with any programming language/framework
+- **No Setup Required**: Drop into any repo and analyze immediately  
+- **Pattern Recognition**: Identifies architectural patterns automatically
+
+#### **📝 Living Documentation**  
+- **Immutable History**: ADRs preserve all architectural decisions
+- **Team Alignment**: RoE files ensure consistent development practices
+- **Audit Compliance**: Comprehensive documentation for compliance requirements
+
+#### **🔄 Continuous Intelligence**
+- **Monthly Assessments**: Track architectural evolution over time
+- **CI/CD Integration**: Automated assessment updates in pipelines
+- **Debt Tracking**: Monitor technical debt accumulation and resolution
+
+### 🛠️ Technical Implementation
+
+**Zero Dependencies**: Pure Node.js with no external packages for maximum compatibility
+**Framework Agnostic**: Works with any codebase structure or technology stack  
+**Git Integration**: Leverages repository history for enhanced insights
+**Performance Optimized**: Intelligent file scanning with configurable depth
+**Extensible**: Plugin architecture for custom analysis patterns
+
+The Universal Meta-Assessor transforms any repository into a **self-documenting, decision-tracked, standard-compliant** codebase with a single command.
 ## 🔗 MCP Integration
 
 ### Intelligent Tool Coordination
