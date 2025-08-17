@@ -1,0 +1,120 @@
+{
+  "agents": {
+    "backend-architect": {
+      "original": {
+        "tasks": 0,
+        "avgResponseTime": 0,
+        "quality": 0,
+        "userSatisfaction": 0
+      },
+      "enhanced": {
+        "tasks": 0,
+        "avgResponseTime": 0,
+        "quality": 0,
+        "userSatisfaction": 0
+      }
+    },
+    "frontend-developer": {
+      "original": {
+        "tasks": 0,
+        "avgResponseTime": 0,
+        "quality": 0,
+        "userSatisfaction": 0
+      },
+      "enhanced": {
+        "tasks": 0,
+        "avgResponseTime": 0,
+        "quality": 0,
+        "userSatisfaction": 0
+      }
+    },
+    "test-writer-fixer": {
+      "original": {
+        "tasks": 0,
+        "avgResponseTime": 0,
+        "quality": 0,
+        "userSatisfaction": 0
+      },
+      "enhanced": {
+        "tasks": 0,
+        "avgResponseTime": 0,
+        "quality": 0,
+        "userSatisfaction": 0
+      }
+    },
+    "git-workflow": {
+      "original": {
+        "tasks": 0,
+        "avgResponseTime": 0,
+        "quality": 0,
+        "userSatisfaction": 0
+      },
+      "enhanced": {
+        "tasks": 0,
+        "avgResponseTime": 0,
+        "quality": 0,
+        "userSatisfaction": 0
+      }
+    }
+  },
+  "rolloutStatus": {
+    "phase": 3,
+    "currentWeek": 1,
+    "targetAgent": "backend-architect",
+    "startDate": "2025-08-17T13:16:44.423Z",
+    "milestones": []
+  },
+  "qualityStandards": {
+    "backend-architect": {
+      "performanceBudgets": {
+        "uptime": 99.9,
+        "responseTime": 200,
+        "errorRate": 0.1
+      },
+      "priorityHierarchy": [
+        "Reliability",
+        "Security",
+        "Performance",
+        "Features"
+      ]
+    },
+    "frontend-developer": {
+      "performanceBudgets": {
+        "loadTime": 3000,
+        "bundleSize": 500,
+        "wcagCompliance": "AA"
+      },
+      "priorityHierarchy": [
+        "User needs",
+        "Accessibility",
+        "Performance",
+        "Technical elegance"
+      ]
+    },
+    "test-writer-fixer": {
+      "qualityStandards": {
+        "unitCoverage": 80,
+        "integrationCoverage": 70,
+        "e2eCoverage": 60
+      },
+      "priorityHierarchy": [
+        "Prevention",
+        "Detection",
+        "Correction",
+        "Speed"
+      ]
+    },
+    "git-workflow": {
+      "operationalStandards": {
+        "deploymentSuccess": 98,
+        "recoveryTime": 3
+      },
+      "priorityHierarchy": [
+        "Reliability",
+        "Automation",
+        "Security",
+        "Efficiency"
+      ]
+    }
+  }
+}
