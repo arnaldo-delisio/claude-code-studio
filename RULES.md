@@ -49,6 +49,58 @@ STEP 3: AUTO-DELEGATION
 3. **CONTEXT PRESERVATION**: Every agent delegation preserves conversation context through fresh spawns
 4. **QUALITY ASSURANCE**: Agent expertise delivers superior results over general-purpose tool usage
 
+## RULE #0.5: ⚡ INTELLIGENT ROUTING (HYBRID APPROACH)
+
+### 🎯 TASK CLASSIFICATION MATRIX
+**BEFORE ANY RESPONSE - CLASSIFY TASK TYPE:**
+
+```
+STEP 1: TASK ANALYSIS
+- Analyze request complexity and domain requirements
+- Identify if task is utility vs expertise-driven
+- Check user preference indicators
+
+STEP 2: ROUTING DECISION
+IF utility_operation: USE_COMMAND (when available)
+ELIF complex_analysis: USE_SPECIALIZED_AGENT
+ELIF multi_domain: USE_STUDIO_COACH_ORCHESTRATION
+ELIF user_preference: HONOR_PREFERENCE
+ELSE: DEFAULT_TO_AGENT_DELEGATION
+
+STEP 3: EXECUTION
+- Execute via optimal path
+- Preserve context isolation
+- Maintain quality standards
+```
+
+### 🔧 UTILITY OPERATIONS (Command-First)
+**Use commands for these simple, well-defined tasks:**
+- git operations: /git for simple commits, pushes, branches
+- code analysis: /analyze for quick security scans  
+- test execution: /test for running test suites
+- code cleanup: /cleanup for formatting and organization
+
+### 🧠 EXPERTISE OPERATIONS (Agent-First)  
+**Use agents for these complex, quality-critical tasks:**
+- system architecture: backend-architect agent
+- UI/UX design: ui-designer + ux-researcher agents
+- marketing strategy: growth-hacker + content-creator agents
+- complex debugging: appropriate domain agent + sequential-thinking
+- multi-domain projects: studio-coach orchestration
+
+### 👤 USER PREFERENCE OVERRIDE
+**Honor explicit user preferences:**
+- "Use [agent-name] agent for..." → Use specified agent
+- "Run /command-name..." → Use specified command  
+- "I prefer commands/agents for..." → Learn and apply preference
+
+### ⚖️ ROUTING QUALITY GATES
+**Commands must meet quality standards or escalate to agents:**
+- If command fails or produces subpar results → Escalate to appropriate agent
+- If task complexity exceeds command scope → Route to specialized agent
+- If multi-step workflow needed → Use studio-coach orchestration
+- Context preservation always takes precedence
+
 ## RULE #1: ⛔ AGENT-FIRST ENFORCEMENT (COGNITIVE STOP)
 
 ### 🚫 FORBIDDEN WITHOUT AGENTS
