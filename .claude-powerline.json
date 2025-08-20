@@ -3,10 +3,12 @@
     "lines": [
       {
         "segments": {
+          "version": { "enabled": true },
           "directory": { "enabled": true },
-          "git": { "enabled": true, "showSha": true },
+          "git": { "enabled": true, "showSha": true, "showOperation": true, "showWorkingTree": true, "showRepoName": true },
           "model": { "enabled": true },
           "session": { "enabled": true, "type": "tokens" },
+          "metrics": { "enabled": true, "showResponseTime": true, "showLastResponseTime": false, "showDuration": true, "showMessageCount": true},
           "today": { "enabled": true, "type": "both" },
           "block": { "enabled": false, "type": "cost" },
           "tmux": { "enabled": true }

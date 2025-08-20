@@ -6,6 +6,7 @@ ide/
 shell-snapshots/
 logs/
 backups/
+cache/
 settings.local.json
 .claude/
 .claude-cache/
